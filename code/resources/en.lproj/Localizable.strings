@@ -1,0 +1,14 @@
+/* 
+  localizable.strings
+  FrenchKit
+
+  Created by Julien on 29/12/2016.
+  Copyright © 2016 Julien. All rights reserved.
+*/
+
+
+"Map" = "Map";
+"Twitter" = "Twitter";
+
+"EventName" = "FrenchKit";
+"EventPitch" = "FrenchKit is the first iOS and OS X conference in France. It will focus on a wide range of subjects, from the Cocoa APIs to Swift, covered by some of the most prominent developers in the international community.\n\nBe one of the 200+ people that will discover the first edition of FrenchKit. Spend two days with some of the best developers from all around the World. Learn, discover, exchange, discuss and have fun!\n\nMeet, discuss, and learn from the most prominent developers involved with Apple Technologies. We are gathering some of the best international speakers, people whose work is consistently improving the Cocoa ecosystem. Please note that all talks will be given in English.";

@@ -1,0 +1,9 @@
+platform :ios, '10.0'
+project '../FrenchKit.xcodeproj'
+workspace '../FrenchKit'
+
+use_frameworks!
+
+target 'FrenchKit' do
+  pod 'TwitterKit', '~> 2.7'
+end

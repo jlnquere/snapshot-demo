@@ -1,0 +1,14 @@
+/* 
+  localizable.strings
+  FrenchKit
+
+  Created by Julien on 29/12/2016.
+  Copyright © 2016 Julien. All rights reserved.
+*/
+
+
+"Map" = "Carte";
+"Twitter" = "Twitter";
+
+"EventName" = "FrenchKit";
+"EventPitch" = "FrenchKit est la première conférence iOS et OS X en France. Elle couvre un large spectre de sujets, des API Cocoa à Swift. Ils sont traités par certains des plus éminents développeurs de la scène internationale.\n\nFaites partie des plus de 200 personnes qui découvriront la première édition de FrenchKit. Passez deux jours avec certains des meilleurs développeurs mondiaux. Apprenez, découvrez, échangez, discutez et amusez-vous !\n\nRencontrez, discutez et apprenez avec les développeurs les plus éminents autour des technologies Apple. Nous avons rassemblé certains des meilleurs présentateurs internationaux, des personnes dont le travail est de rendre meilleur l’écosystème Cocoa. Veuillez noter que toutes les présentations seront faites en anglais.";
