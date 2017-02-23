@@ -11,5 +11,5 @@ languages([
   "fr"
 ])
 
-scheme "CocoaConfUITests"
+scheme "FrenchKit"
 clear_previous_screenshots true

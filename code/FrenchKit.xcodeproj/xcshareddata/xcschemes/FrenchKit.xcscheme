@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -9,14 +9,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9B53EBB11E1A675900E49666"
-               BuildableName = "CocoaConfUITests.xctest"
-               BlueprintName = "CocoaConfUITests"
+               BlueprintIdentifier = "9BDCC7561E1427E40093DE47"
+               BuildableName = "FrenchKit.app"
+               BlueprintName = "FrenchKit"
                ReferencedContainer = "container:FrenchKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,13 +32,22 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9B53EBB11E1A675900E49666"
-               BuildableName = "CocoaConfUITests.xctest"
-               BlueprintName = "CocoaConfUITests"
+               BlueprintIdentifier = "D02467661E5ED93D00DB5457"
+               BuildableName = "UITests.xctest"
+               BlueprintName = "UITests"
                ReferencedContainer = "container:FrenchKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9BDCC7561E1427E40093DE47"
+            BuildableName = "FrenchKit.app"
+            BlueprintName = "FrenchKit"
+            ReferencedContainer = "container:FrenchKit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -52,15 +61,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B53EBB11E1A675900E49666"
-            BuildableName = "CocoaConfUITests.xctest"
-            BlueprintName = "CocoaConfUITests"
+            BlueprintIdentifier = "9BDCC7561E1427E40093DE47"
+            BuildableName = "FrenchKit.app"
+            BlueprintName = "FrenchKit"
             ReferencedContainer = "container:FrenchKit.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,15 +80,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B53EBB11E1A675900E49666"
-            BuildableName = "CocoaConfUITests.xctest"
-            BlueprintName = "CocoaConfUITests"
+            BlueprintIdentifier = "9BDCC7561E1427E40093DE47"
+            BuildableName = "FrenchKit.app"
+            BlueprintName = "FrenchKit"
             ReferencedContainer = "container:FrenchKit.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -1,15 +1,15 @@
 //
-//  CocoaConfUITests.swift
-//  CocoaConfUITests
+//  UITests.swift
+//  UITests
 //
-//  Created by Julien on 02/01/2017.
-//  Copyright © 2017 Sinplicity. All rights reserved.
+//  Created by Sinplicity on 23/02/2017.
+//  Copyright © 2017 Julien. All rights reserved.
 //
 
 import XCTest
 
-class CocoaConfUITests: XCTestCase {
-        
+class UITests: XCTestCase {
+    
     override func setUp() {
         super.setUp()
         
@@ -19,17 +19,17 @@ class CocoaConfUITests: XCTestCase {
         setupSnapshot(app)
         app.launch()
     }
-
+    
     
     func testScreenshots() {
         
         let app = XCUIApplication()
-
+        
         XCUIDevice.shared().orientation = .portrait
         
         let tabBarsQuery = XCUIApplication().tabBars
         
-
+        
         // Home
         tabBarsQuery.buttons.element(boundBy: 0).tap()
         snapshot("0-Home")
@@ -38,12 +38,12 @@ class CocoaConfUITests: XCTestCase {
         tabBarsQuery.buttons.element(boundBy: 1).tap()
         app.otherElements["eventlocation"].tap()
         snapshot("1-Map")
-
+        
         
         // Twitter
         tabBarsQuery.buttons.element(boundBy: 2).tap()
         snapshot("2-Map", waitForLoadingIndicator: true)
-
+        
     }
     
 }
