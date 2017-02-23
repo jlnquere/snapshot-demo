@@ -14,7 +14,9 @@ class UITests: XCTestCase {
     override func setUp() {
         super.setUp()
         
-        SDStatusBarManager.sharedInstance().carrierName = "YO !"
+        SDStatusBarManager.sharedInstance().carrierName = "Sinplicity"
+        SDStatusBarManager.sharedInstance().timeString = "13:37"
+        SDStatusBarManager.sharedInstance().bluetoothState = .visibleConnected
         SDStatusBarManager.sharedInstance().enableOverrides()
         
         continueAfterFailure = false
@@ -52,7 +54,6 @@ class UITests: XCTestCase {
     override func tearDown() {
         super.tearDown()
         SDStatusBarManager.sharedInstance().disableOverrides()
-        
     }
     
 }
