@@ -1,4 +1,4 @@
-This repo contains a demo project and resources for an article about screenshot automation with fastlane. You can find this article (in French) here:  https://medium.com/@juli1quere/automatiser-ses-captures-décrans-sur-ios-avec-fastlane-5684b4eeb608#
+This repo contains a demo project and resources for an article about screenshot automation with fastlane. You can find this article here:  https://medium.com/@juli1quere/automate-ios-screenshots-with-fastlane-b4fd90ef425b
 
 # Show me the code
 All the code of the demo app is in [./code/](code/). To setup the project, you will need [CocoaPods](https://cocoapods.org). Then, it's simple as:
