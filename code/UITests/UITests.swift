@@ -7,11 +7,15 @@
 //
 
 import XCTest
+import SimulatorStatusMagic
 
 class UITests: XCTestCase {
     
     override func setUp() {
         super.setUp()
+        
+        SDStatusBarManager.sharedInstance().carrierName = "YO !"
+        SDStatusBarManager.sharedInstance().enableOverrides()
         
         continueAfterFailure = false
         
@@ -43,6 +47,11 @@ class UITests: XCTestCase {
         // Twitter
         tabBarsQuery.buttons.element(boundBy: 2).tap()
         snapshot("2-Map", waitForLoadingIndicator: true)
+        
+    }
+    override func tearDown() {
+        super.tearDown()
+        SDStatusBarManager.sharedInstance().disableOverrides()
         
     }
     

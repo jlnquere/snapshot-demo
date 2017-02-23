@@ -7,3 +7,7 @@ use_frameworks!
 target 'FrenchKit' do
   pod 'TwitterKit', '~> 2.7'
 end
+
+target 'UITests' do
+    pod 'SimulatorStatusMagic'
+end
