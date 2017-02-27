@@ -23,6 +23,8 @@ class TwitterViewController: TWTRTimelineViewController {
                                                      includeReplies: false,
                                                      includeRetweets: false)
         self.showTweetActions = false
+        
+        self.timelineDelegate = self
 
         tableView.contentInset = UIEdgeInsets(top: 20, left: 0, bottom: 0, right: 0)
     }
@@ -31,5 +33,14 @@ class TwitterViewController: TWTRTimelineViewController {
         super.awakeFromNib()
         self.title = "Twitter".localized
     }
+}
 
+extension TwitterViewController : TWTRTimelineDelegate {
+    func timelineDidBeginLoading(_ timeline: TWTRTimelineViewController) {
+        UIApplication.shared.isNetworkActivityIndicatorVisible = true
+    }
+    
+    func timeline(_ timeline: TWTRTimelineViewController, didFinishLoadingTweets tweets: [Any]?, error: Error?) {
+        UIApplication.shared.isNetworkActivityIndicatorVisible = false
+    }
 }
