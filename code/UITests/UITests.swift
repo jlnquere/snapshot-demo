@@ -16,7 +16,9 @@ class UITests: XCTestCase {
         
         SDStatusBarManager.sharedInstance().carrierName = "Sinplicity"
         SDStatusBarManager.sharedInstance().timeString = "13:37"
-        SDStatusBarManager.sharedInstance().bluetoothState = .visibleConnected
+        SDStatusBarManager.sharedInstance().bluetoothState = .hidden
+        SDStatusBarManager.sharedInstance().batteryDetailEnabled = false
+        
         SDStatusBarManager.sharedInstance().enableOverrides()
         
         continueAfterFailure = false
